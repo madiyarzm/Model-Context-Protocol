@@ -74,7 +74,7 @@ def fetch_doc(doc_id: str) -> str:
 # TODO: Write a prompt to rewrite a doc in markdown format
 @mcp.prompt(
     name="format",
-    description="",
+    description="Rewrites the contents of the document in Makrdown format.",
 )
 
 def format_document(
